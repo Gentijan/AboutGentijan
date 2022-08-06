@@ -211,3 +211,183 @@ span{
     color: crimson;
 }
 /*End About*/
+/*Start Resume*/
+#cv{
+    background-color: black;
+}
+#cv .cv {
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 0;
+    background-color: white;
+}
+#cv .cv-header h1{
+    margin-bottom: 50px;
+    
+}
+#cv .all-cv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#cv .cv-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 10px;
+}
+#cv .cv-info{
+    padding: 30px;
+    flex-basis: 50%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #8d8d8d;
+    color: rgb(0, 0, 0);
+}
+#cv .cv-info h1{
+    font-weight: 500;
+}
+#cv .cv-info h2{
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-top: 10px;
+}
+#cv .cv-info p{
+    color:rgb(0, 0, 0);
+}
+#cv .cv-img{
+    flex-basis: 50%;
+    overflow: hidden;
+}
+#cv .cv-img img{
+    transition: 1s ease transform;
+}
+#cv .cv-item:hover .cv-img img{
+    transform: scale(1.1);
+}
+/*End Resume*/
+/*Start Contact*/
+#contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(/assets/images/1885158-mork-glodande-rymd-partiklar-3d-illustration-bakgrund-tapet-konst-design-gratis-fotona.jpg);
+    background-color: black;
+    background-size: cover;
+}
+#contact .content{
+    max-width: 800px;
+    text-align: center;
+}
+#contact .content h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+#contact .content p {
+    font-weight: 300;
+    color: #FFFFFF;
+}
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 36px;
+}
+.container .contactInfo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.container .contactInfo .box {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.container .contactInfo .box .icon {
+    min-width: 60px;
+    height: 60px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+.container .contactInfo .box .text {
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #FFFFFF;
+    flex-direction: column;
+    font-weight: 300;
+}
+.container .contactInfo .box .text h3 {
+    font-weight: 500;
+    color: #00bcd4;
+}
+.contactForm {
+    width: 40%;
+    padding: 40px;
+    background:#FFFFFF ;
+}
+.contactForm h2 {
+    font-size: 30px;
+    column-rule: #333;
+    font-weight: 500;
+}
+.contactForm .inputBox {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.contactForm .inputBox input
+{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+.contactForm .inputBox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+.submit h5 {
+    width: 10%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: #6fd649;
+    color: #000000;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+/*End Contact*/
+/*Start Social*/
