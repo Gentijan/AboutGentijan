@@ -390,4 +390,29 @@ span{
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 /*End Contact*/
-/*Start Social*/
+/*Start Footer*/
+.social {
+    background-color: black;
+    text-align: center;
+    justify-content: center;
+}
+.social a{
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    color: rgb(255, 250, 250);
+    cursor: pointer;
+    margin-right: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-bottom: 35px;
+}
+.social a:hover {
+    transform: scale(1.1);
+    background: #85F9A4;
+    transition: .4s;
+}
+/*End Footer*/
