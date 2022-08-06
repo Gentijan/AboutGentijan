@@ -1,21 +1,23 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
 }
+
 body {
     overflow-x: hidden;
 }
- 
-.main-width{
+
+.main-width {
     width: 1280px;
     max-width: 95%;
     margin: 0 auto;
     padding: 0px 20px;
 }
-.hero{
+
+.hero {
     width: 100%;
     height: 100%;
     min-height: 100vh;
@@ -25,14 +27,16 @@ body {
     background-position: center;
     position: relative;
 }
-header{
+
+header {
     padding: 40px 0 30px;
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
     justify-content: space-between;
 }
-.logo i{
+
+.logo i {
     height: 55px;
     width: 55px;
     background: transparent;
@@ -45,8 +49,8 @@ header{
     font-size: 20px;
     cursor: pointer;
 }
- 
-nav .hamb{
+
+nav .hamb {
     width: 35px;
     height: 24px;
     right: 3%;
@@ -57,35 +61,42 @@ nav .hamb{
     cursor: pointer;
     display: none;
 }
-nav .hamb span{
+
+nav .hamb span {
     display: block;
     background: red;
     width: 100%;
     height: 3px;
     transition: .3s;
-    transition-property: transform,opacity;
+    transition-property: transform, opacity;
 
 }
-nav .hamb span:nth-child(2){
+
+nav .hamb span:nth-child(2) {
     margin: 7px 0px;
 }
-nav .nav-list{
+
+nav .nav-list {
     list-style: none;
 }
-nav .nav-list li{
+
+nav .nav-list li {
     display: inline-block;
 }
-nav .nav-list li a{
+
+nav .nav-list li a {
     display: inline-block;
     color: #eee;
     margin-left: 55px;
     font-size: 15px;
     font-weight: 600;
 }
-nav .nav-list li:not(last-child) a:hover{
+
+nav .nav-list li:not(last-child) a:hover {
     color: red;
     transition: .4s;
 }
+
 nav .nav-list li.btn a {
     display: inline-block;
     background: transparent;
@@ -96,35 +107,41 @@ nav .nav-list li.btn a {
     color: red;
     font-weight: 500;
 }
-nav .nav-list li.btn:hover a{
+
+nav .nav-list li.btn:hover a {
     background: black;
     color: white;
     border: 2px solid transparent;
     transition: .4s;
 }
-.container{
+
+.container {
     padding-top: 190px;
 }
-.container .hero-text{
+
+.container .hero-text {
     margin-bottom: 40px;
 }
 
-.container .hero-text h1{
+.container .hero-text h1 {
     color: white;
     font-size: 47px;
     font-weight: 900;
     line-height: 1.2;
     margin: 20px 0px 20px;
 }
-span{
+
+span {
     color: rgb(189, 79, 79);
 }
-.container .hero-text h3{
+
+.container .hero-text h3 {
     color: #eee;
     font-weight: 400;
     font-size: 17px;
 }
-.container .hero-text p{
+
+.container .hero-text p {
     width: 440px;
     max-width: 100%;
     color: #eee;
@@ -133,7 +150,7 @@ span{
     margin-bottom: 30px;
 }
 
-.container .hero-text button{
+.container .hero-text button {
     color: blue;
     background: #FFFFFF;
     font-size: 16px;
@@ -144,44 +161,52 @@ span{
     border-radius: 30px;
     cursor: pointer;
 }
-.container .hero-text button:hover{
+
+.container .hero-text button:hover {
     background: transparent;
     border: 2px solid #FFFFFF;
     color: black;
     transition: 1s;
 }
-.bottom{
+
+.bottom {
     margin-top: 243px;
     padding-bottom: 40px;
 }
-.bottom p{
+
+.bottom p {
     color: #eee;
     letter-spacing: 2px;
     font-size: 15px;
 }
+
 /*Start About*/
-#about{
+#about {
     width: 100%;
     padding: 100px 0px;
     background: url(/assets/images/1885158-mork-glodande-rymd-partiklar-3d-illustration-bakgrund-tapet-konst-design-gratis-fotona.jpg);
 }
-#about img{
+
+#about img {
     height: auto;
     width: 100%;
     margin-right: 20px;
     margin-left: 5px;
 }
-.about-text{
+
+.about-text {
     max-width: 550px;
 }
-.main{
+
+.main {
     max-width: 95%;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-.about-text h2{
+
+.about-text h2 {
     color: rgb(189, 79, 79);
     font-size: 75px;
     text-transform: capitalize;
@@ -189,7 +214,8 @@ span{
     align-items: center;
     justify-content: center;
 }
-.about-text p{
+
+.about-text p {
     color: rgba(255, 255, 255, 0.8);
     letter-spacing: 1px;
     line-height: 28px;
@@ -198,6 +224,7 @@ span{
     align-items: center;
     justify-content: center;
 }
+
 .section-titel {
     font-size: 4rem;
     font-weight: 300;
@@ -207,14 +234,17 @@ span{
     letter-spacing: .2rem;
     text-align: center;
 }
-.section-titel span{
+
+.section-titel span {
     color: crimson;
 }
+
 /*End About*/
 /*Start Resume*/
-#cv{
+#cv {
     background-color: black;
 }
+
 #cv .cv {
     flex-direction: column;
     max-width: 1200px;
@@ -222,17 +252,20 @@ span{
     padding: 100px 0;
     background-color: white;
 }
-#cv .cv-header h1{
+
+#cv .cv-header h1 {
     margin-bottom: 50px;
-    
+
 }
-#cv .all-cv{
+
+#cv .all-cv {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-#cv .cv-item{
+
+#cv .cv-item {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -242,7 +275,8 @@ span{
     overflow: hidden;
     border-radius: 10px;
 }
-#cv .cv-info{
+
+#cv .cv-info {
     padding: 30px;
     flex-basis: 50%;
     height: 100%;
@@ -253,30 +287,37 @@ span{
     background-color: #8d8d8d;
     color: rgb(0, 0, 0);
 }
-#cv .cv-info h1{
+
+#cv .cv-info h1 {
     font-weight: 500;
 }
-#cv .cv-info h2{
+
+#cv .cv-info h2 {
     font-size: 1.8rem;
     font-weight: 500;
     margin-top: 10px;
 }
-#cv .cv-info p{
-    color:rgb(0, 0, 0);
+
+#cv .cv-info p {
+    color: rgb(0, 0, 0);
 }
-#cv .cv-img{
+
+#cv .cv-img {
     flex-basis: 50%;
     overflow: hidden;
 }
-#cv .cv-img img{
+
+#cv .cv-img img {
     transition: 1s ease transform;
 }
-#cv .cv-item:hover .cv-img img{
+
+#cv .cv-item:hover .cv-img img {
     transform: scale(1.1);
 }
+
 /*End Resume*/
 /*Start Contact*/
-#contact{
+#contact {
     position: relative;
     min-height: 100vh;
     padding: 50px 100px;
@@ -288,19 +329,23 @@ span{
     background-color: black;
     background-size: cover;
 }
-#contact .content{
+
+#contact .content {
     max-width: 800px;
     text-align: center;
 }
-#contact .content h2{
+
+#contact .content h2 {
     font-size: 36px;
     font-weight: 500;
     color: #FFFFFF;
 }
+
 #contact .content p {
     font-weight: 300;
     color: #FFFFFF;
 }
+
 .container {
     width: 100%;
     display: flex;
@@ -308,16 +353,19 @@ span{
     align-items: center;
     margin-top: 36px;
 }
+
 .container .contactInfo {
     width: 50%;
     display: flex;
     flex-direction: column;
 }
+
 .container .contactInfo .box {
     position: relative;
     padding: 20px 0;
     display: flex;
 }
+
 .container .contactInfo .box .icon {
     min-width: 60px;
     height: 60px;
@@ -328,6 +376,7 @@ span{
     border-radius: 50%;
     font-size: 22px;
 }
+
 .container .contactInfo .box .text {
     display: flex;
     margin-left: 20px;
@@ -336,27 +385,31 @@ span{
     flex-direction: column;
     font-weight: 300;
 }
+
 .container .contactInfo .box .text h3 {
     font-weight: 500;
     color: #00bcd4;
 }
+
 .contactForm {
     width: 40%;
     padding: 40px;
-    background:#FFFFFF ;
+    background: #FFFFFF;
 }
+
 .contactForm h2 {
     font-size: 30px;
     column-rule: #333;
     font-weight: 500;
 }
+
 .contactForm .inputBox {
     position: relative;
     width: 100%;
     margin-top: 10px;
 }
-.contactForm .inputBox input
-{
+
+.contactForm .inputBox input {
     width: 100%;
     padding: 5px 0;
     font-size: 16px;
@@ -366,7 +419,8 @@ span{
     outline: none;
     resize: none;
 }
-.contactForm .inputBox span{
+
+.contactForm .inputBox span {
     position: absolute;
     left: 0;
     padding: 5px 0;
@@ -376,6 +430,7 @@ span{
     transition: 0.5s;
     color: #666;
 }
+
 .submit h5 {
     width: 10%;
     margin-top: 50px;
@@ -389,6 +444,7 @@ span{
     cursor: pointer;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
+
 /*End Contact*/
 /*Start Footer*/
 .social {
@@ -396,7 +452,8 @@ span{
     text-align: center;
     justify-content: center;
 }
-.social a{
+
+.social a {
     width: 37px;
     height: 37px;
     border-radius: 50%;
@@ -410,24 +467,28 @@ span{
     background-color: rgba(255, 255, 255, 0.1);
     margin-bottom: 35px;
 }
+
 .social a:hover {
     transform: scale(1.1);
     background: #85F9A4;
     transition: .4s;
 }
+
 /*End Footer*/
 /*Start Thankyou*/
-.popup img{
+.popup img {
     width: 100px;
     margin-top: -50px;
     border-radius: 50%;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
+
 .popup h2 {
     font-size: 38px;
     font-weight: 500;
     margin: 30px 0 10px;
 }
+
 .popup h5 {
     width: 100%;
     margin-top: 50px;
@@ -441,6 +502,7 @@ span{
     cursor: pointer;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
+
 .popup {
     width: 400px;
     background: #FFFFFF;
