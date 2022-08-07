@@ -9,7 +9,7 @@
 body {
     overflow-x: hidden;
 }
-
+/*Start Main */
 .main-width {
     width: 1280px;
     max-width: 95%;
@@ -21,7 +21,7 @@ body {
     width: 100%;
     height: 100%;
     min-height: 100vh;
-    background-image: url("/assets/images/rm422-076-x.jpg");
+    background-image: url("../images/rm422-076-x.jpg");
     background-color: black;
     background-size: cover;
     background-position: center;
@@ -47,9 +47,8 @@ header {
     align-items: center;
     justify-content: center;
     font-size: 20px;
-    cursor: pointer;
 }
-
+/* Start Navbar */
 nav .hamb {
     width: 35px;
     height: 24px;
@@ -69,7 +68,6 @@ nav .hamb span {
     height: 3px;
     transition: .3s;
     transition-property: transform, opacity;
-
 }
 
 nav .hamb span:nth-child(2) {
@@ -114,7 +112,7 @@ nav .nav-list li.btn:hover a {
     border: 2px solid transparent;
     transition: .4s;
 }
-
+/*End Navbar */
 .container {
     padding-top: 190px;
 }
@@ -179,12 +177,12 @@ span {
     letter-spacing: 2px;
     font-size: 15px;
 }
-
+/*End Main*/
 /*Start About*/
 #about {
     width: 100%;
     padding: 100px 0px;
-    background: url(/assets/images/1885158-mork-glodande-rymd-partiklar-3d-illustration-bakgrund-tapet-konst-design-gratis-fotona.jpg);
+    background-image: url(../images/1885158-mork-glodande-rymd-partiklar-3d-illustration-bakgrund-tapet-konst-design-gratis-fotona.jpg);
 }
 
 #about img {
@@ -317,7 +315,7 @@ span {
 
 /*End Resume*/
 /*Start Contact*/
-#contact {
+.contact {
     position: relative;
     min-height: 100vh;
     padding: 50px 100px;
@@ -325,23 +323,23 @@ span {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: url(/assets/images/1885158-mork-glodande-rymd-partiklar-3d-illustration-bakgrund-tapet-konst-design-gratis-fotona.jpg);
+    background-image: url(../images/1885158-mork-glodande-rymd-partiklar-3d-illustration-bakgrund-tapet-konst-design-gratis-fotona.jpg);
     background-color: black;
     background-size: cover;
 }
 
-#contact .content {
+.contact .content {
     max-width: 800px;
     text-align: center;
 }
 
-#contact .content h2 {
+.contact .content h2 {
     font-size: 36px;
     font-weight: 500;
     color: #FFFFFF;
 }
 
-#contact .content p {
+.contact .content p {
     font-weight: 300;
     color: #FFFFFF;
 }
@@ -514,4 +512,26 @@ span {
     text-align: center;
     padding: 0 30px 30px;
     color: #333;
+}
+
+@media screen and (max-width: 991px)
+{
+    .contact
+    {
+        padding: 50px;
+    }
+    .container
+    {
+        flex-direction: column;
+    }
+    .container .contactInfo
+    {
+        margin-bottom: 40px;
+    }
+    .container .contactInfo,
+    .contactForm
+    {
+        width: 100%;
+    }
+    
 }
